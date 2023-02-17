@@ -1,2 +1,5 @@
-def hello:
-    return 'hello'
+def hello(name):
+    if name:
+        return f'hello {name}'
+    else:
+        return 'hello'
